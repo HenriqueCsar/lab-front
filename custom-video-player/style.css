@@ -88,16 +88,36 @@ body, .video-timer, .video-controls, .options{
 .video-timeline{
     height: 7px;
     width:100%;
+    cursor:pointer;
 }
 
 .progress-area span{
     position: absolute;
+    left:50%;
+    color:#fff;
+    transform:translateX(-50%);
+    top:-25px;
 }
 
 .progress-area .progress-bar{
     width:50%;
+    position: relative;
     height: 100%;
     background:rgb(107, 21, 244);
+}
+
+
+
+.progress-area .progress-bar::before{
+    content:"";
+    right:0;
+    height: 13px;
+    top:50%;
+    width:13px;
+    background:inherit;
+    position:absolute;
+    transform: translateY(-50%);
+    border-radius:50%;
 }
 
 .container video{
