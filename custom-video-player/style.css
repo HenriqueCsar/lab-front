@@ -131,6 +131,26 @@ body, .video-timer, .video-controls, .options{
 }
 
 
+.video-timeline .progress-area > span{
+    opacity: 0%;
+    pointer-events: none;
+}
+
+.video-timeline .progress-area > span:hover{
+pointer-events: auto;
+opacity:100%;
+}
+
+.playblack-speed::before{
+    position:absolute;
+    content:"";
+    top: -100px;
+    width:70px;
+    height:100px;
+    right:80px;
+    background:rgb(255, 255, 255);
+}
+
 .options .video-timer{
     font-size:14px;
     color:#efefef;
