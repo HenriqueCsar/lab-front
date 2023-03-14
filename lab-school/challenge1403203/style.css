@@ -21,6 +21,7 @@
 
 .cadastro-professor{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -30,9 +31,11 @@
 }
 
 .professor:hover{
-    content:"";
+    content:"Segunda-Feira";
     width: 200px;
     height: 200px;
+    right: 100px;
     position:  absolute;
     background-color: brown;
 }
+
