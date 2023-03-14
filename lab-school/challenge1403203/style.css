@@ -31,7 +31,47 @@
     display: relative;
 }
 
-#segunda:hover::after,#terca:hover::after{
+#segunda:hover::after{
+    content:"---Segunda Feira - Sala 1 : - Horário: 20:24:00";
+    text-align: center;
+    color:rgb(60, 58, 58);
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    position:  absolute;
+    background-color: rgb(233, 239, 235);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#terca:hover::after{
+    content:"<p>dasdas</p>";
+    text-align: center;
+    color:rgb(60, 58, 58);
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    position:  absolute;
+    background-color: rgb(233, 239, 235);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#quarta:hover::after{
+    content:"<p>dasdas</p>";
+    text-align: center;
+    color:rgb(60, 58, 58);
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    position:  absolute;
+    background-color: rgb(233, 239, 235);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+#quinta:hover::after{
     content:"<p>dasdas</p>";
     text-align: center;
     color:rgb(60, 58, 58);
