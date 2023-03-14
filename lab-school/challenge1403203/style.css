@@ -24,13 +24,14 @@
    display: flex;
    position:relative;
    flex-direction: column;
+   padding: 1em;
 }
 
 .professor{
     display: relative;
 }
 
-#segunda:hover,#terca:hover,#quarta:hover,#quinta:hover,#sexta:hover{
+#segunda:hover::after,#terca:hover::after{
     content:"<p>dasdas</p>";
     text-align: center;
     color:rgb(60, 58, 58);
