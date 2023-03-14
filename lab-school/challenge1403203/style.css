@@ -31,8 +31,14 @@
     display: relative;
 }
 
+.data a{
+    color:gray;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #segunda:hover::after{
-    content:"---Segunda Feira - Sala 1 : - Horário: 20:24:00";
+    content:" < Segunda-Feira > ";
     text-align: center;
     color:rgb(60, 58, 58);
     width: 200px;
@@ -45,7 +51,7 @@
 }
 
 #terca:hover::after{
-    content:"<p>dasdas</p>";
+    content:" < Terça-Feira > ";
     text-align: center;
     color:rgb(60, 58, 58);
     width: 200px;
@@ -58,7 +64,7 @@
 }
 
 #quarta:hover::after{
-    content:"<p>dasdas</p>";
+    content:" < Quarta-Feira > ";
     text-align: center;
     color:rgb(60, 58, 58);
     width: 200px;
@@ -72,7 +78,7 @@
 
 
 #quinta:hover::after{
-    content:"<p>dasdas</p>";
+    content:" < Quinta-Feira > ";
     text-align: center;
     color:rgb(60, 58, 58);
     width: 200px;
