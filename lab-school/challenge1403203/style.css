@@ -31,7 +31,7 @@
 .data a{
     color:gray;
     font-size: large;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Poppins;
 }
 
 #segunda:hover::after{
@@ -40,43 +40,46 @@
     text-align: center;
     color:rgb(99, 89, 83);
     width: 200px;
-    height: 150px;
+    height: 200px;
     left: 100px;
     bottom:50px;
     position:  absolute;
     background-color: rgb(233, 239, 235);
     border-radius: 5px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.242);
+    font-family: Poppins;
 }
 
 #terca:hover::after{
     content:"\A < Terça-Feira > \A\A Turma:3M04\A Hora:20:33:00\A Sala:234";
     white-space: pre;
     text-align: center;
-    color:rgb(60, 58, 58);
+    color:rgb(99, 89, 83);
     width: 200px;
-    height: 150px;
+    height: 200px;
     left: 100px;
     bottom:50px;
     position:  absolute;
     background-color: rgb(233, 239, 235);
     border-radius: 5px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.242);
+    font-family: Poppins;
 }
 
 #quarta:hover::after{
     content:"\A < Quarta-Feira > \A\A Turma:3M04\A Hora:20:33:00\A Sala:234";
     white-space: pre;
     text-align: center;
-    color:rgb(60, 58, 58);
+    color:rgb(99, 89, 83);
     width: 200px;
-    height: 150px;
+    height: 200px;
     left: 100px;
     bottom:50px;
     position:  absolute;
     background-color: rgb(233, 239, 235);
     border-radius: 5px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.242);
+    font-family: Poppins;
 }
 
 
@@ -84,14 +87,15 @@
     content:"\A < Quinta-Feira > \A\A Turma:3M04\A Hora:20:33:00\A Sala:234";
     white-space: pre;
     text-align: center;
-    color:rgb(60, 58, 58);
+    color:rgb(99, 89, 83);
     width: 200px;
-    height: 150px;
+    height: 200px;
     left: 100px;
     bottom:50px;
     position:  absolute;
     background-color: rgb(233, 239, 235);
     border-radius: 5px;
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.242);
+    font-family: Poppins;
 }
 
