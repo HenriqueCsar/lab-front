@@ -17,3 +17,22 @@
     border:1px solid red;
     height: 100%;
 }
+
+
+.cadastro-professor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.professor{
+    display: relative;
+}
+
+.professor:hover{
+    content:"";
+    width: 200px;
+    height: 200px;
+    position:  absolute;
+    background-color: brown;
+}
