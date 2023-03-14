@@ -19,23 +19,54 @@
 }
 
 
-.cadastro-professor{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.data{
+   display: flex;
+   position:relative;
 }
 
 .professor{
     display: relative;
 }
 
-.professor:hover{
-    content:"Segunda-Feira";
+#segunda:hover{
+    content:"";
     width: 200px;
     height: 200px;
     right: 100px;
     position:  absolute;
     background-color: brown;
 }
+
+
+#terca:hover{
+    content:"";
+    width: 200px;
+    height: 200px;
+    right: 100px;
+    position:  absolute;
+    background-color: rgb(42, 118, 165);
+}
+
+
+
+#quarta:hover{
+    content:"";
+    width: 200px;
+    height: 200px;
+    right: 100px;
+    position:  absolute;
+    background-color: rgb(48, 165, 42);
+}
+
+
+#quinta:hover{
+    content:"";
+    width: 200px;
+    height: 200px;
+    right: 100px;
+    position:  absolute;
+    background-color: rgb(165, 153, 42);
+}
+
+
 
