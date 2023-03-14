@@ -9,6 +9,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding:5px;
 }
 
 .col{
@@ -22,51 +23,23 @@
 .data{
    display: flex;
    position:relative;
+   flex-direction: column;
 }
 
 .professor{
     display: relative;
 }
 
-#segunda:hover{
-    content:"";
+#segunda:hover,#terca:hover,#quarta:hover,#quinta:hover,#sexta:hover{
+    content:"<p>dasdas</p>";
+    text-align: center;
+    color:rgb(60, 58, 58);
     width: 200px;
     height: 200px;
-    right: 100px;
+    right: 0px;
     position:  absolute;
-    background-color: brown;
+    background-color: rgb(233, 239, 235);
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
 }
-
-
-#terca:hover{
-    content:"";
-    width: 200px;
-    height: 200px;
-    right: 100px;
-    position:  absolute;
-    background-color: rgb(42, 118, 165);
-}
-
-
-
-#quarta:hover{
-    content:"";
-    width: 200px;
-    height: 200px;
-    right: 100px;
-    position:  absolute;
-    background-color: rgb(48, 165, 42);
-}
-
-
-#quinta:hover{
-    content:"";
-    width: 200px;
-    height: 200px;
-    right: 100px;
-    position:  absolute;
-    background-color: rgb(165, 153, 42);
-}
-
-
 
