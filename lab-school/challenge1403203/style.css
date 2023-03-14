@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200&display=swap');
+
+
 *{
     box-sizing: border-box;
     padding:0;
@@ -32,13 +35,14 @@
 }
 
 #segunda:hover::after{
-    content:" < Segunda-Feira > \A Hora:20:33:00\A Sala:23 \A\A Hora:18:00:00 \A Sala:324";
+    content:"\A < Segunda-Feira > \A\A Turma:3M04\A Hora:20:33:00\A Sala:234";
     white-space: pre;
     text-align: center;
-    color:rgb(60, 58, 58);
+    color:rgb(99, 89, 83);
     width: 200px;
-    height: 200px;
-    right: 0px;
+    height: 150px;
+    left: 100px;
+    bottom:50px;
     position:  absolute;
     background-color: rgb(233, 239, 235);
     border-radius: 5px;
@@ -46,12 +50,14 @@
 }
 
 #terca:hover::after{
-    content:" < Terça-Feira > ";
+    content:"\A < Terça-Feira > \A\A Turma:3M04\A Hora:20:33:00\A Sala:234";
+    white-space: pre;
     text-align: center;
     color:rgb(60, 58, 58);
     width: 200px;
-    height: 200px;
-    right: 0px;
+    height: 150px;
+    left: 100px;
+    bottom:50px;
     position:  absolute;
     background-color: rgb(233, 239, 235);
     border-radius: 5px;
@@ -59,12 +65,14 @@
 }
 
 #quarta:hover::after{
-    content:" < Quarta-Feira > ";
+    content:"\A < Quarta-Feira > \A\A Turma:3M04\A Hora:20:33:00\A Sala:234";
+    white-space: pre;
     text-align: center;
     color:rgb(60, 58, 58);
     width: 200px;
-    height: 200px;
-    right: 0px;
+    height: 150px;
+    left: 100px;
+    bottom:50px;
     position:  absolute;
     background-color: rgb(233, 239, 235);
     border-radius: 5px;
@@ -73,12 +81,14 @@
 
 
 #quinta:hover::after{
-    content:" < Quinta-Feira > ";
+    content:"\A < Quinta-Feira > \A\A Turma:3M04\A Hora:20:33:00\A Sala:234";
+    white-space: pre;
     text-align: center;
     color:rgb(60, 58, 58);
     width: 200px;
-    height: 200px;
-    right: 0px;
+    height: 150px;
+    left: 100px;
+    bottom:50px;
     position:  absolute;
     background-color: rgb(233, 239, 235);
     border-radius: 5px;
