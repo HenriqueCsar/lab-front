@@ -12,12 +12,6 @@
     padding:5px;
 }
 
-.col{
-    width: 100%;
-    height: calc(100% / 3);
-    border:1px solid red;
-    height: 100%;
-}
 
 
 .data{
@@ -38,7 +32,8 @@
 }
 
 #segunda:hover::after{
-    content:" < Segunda-Feira > ";
+    content:" < Segunda-Feira > \A Hora:20:33:00\A Sala:23 \A\A Hora:18:00:00 \A Sala:324";
+    white-space: pre;
     text-align: center;
     color:rgb(60, 58, 58);
     width: 200px;
